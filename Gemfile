@@ -48,4 +48,5 @@ end
 # gem 'debugger', group: [:development, :test]
 
 gem 'omniauth'
+gem "less-rails"
 gem "twitter-bootstrap-rails"
