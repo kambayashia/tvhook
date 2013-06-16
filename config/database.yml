@@ -11,10 +11,10 @@
 development:
   adapter: mysql2
   encoding: utf8
-  database: tvhook_development
+  database: tvhook_dev
   pool: 5
   username: root
-  password:
+  password: root
   socket: /var/run/mysqld/mysqld.sock
 
 # Warning: The database defined as "test" will be erased and
@@ -26,14 +26,14 @@ test:
   database: tvhook_test
   pool: 5
   username: root
-  password:
+  password: root
   socket: /var/run/mysqld/mysqld.sock
 
 production:
   adapter: mysql2
   encoding: utf8
-  database: tvhook_production
+  database: tvhook
   pool: 5
   username: root
-  password:
+  password: root
   socket: /var/run/mysqld/mysqld.sock
